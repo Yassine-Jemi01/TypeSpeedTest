@@ -90,4 +90,8 @@ More improvements and features will be added over time.
 
 ## License
 
-This project is open source.
+## License
+
+TypeSpeedTest is licensed under the GNU General Public License v3.0.
+
+See the [LICENSE](LICENSE) file for the full license text.
