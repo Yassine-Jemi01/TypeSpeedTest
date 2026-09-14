@@ -1,8 +1,8 @@
 import time
 
-from input import read_key
-from words import get_text
-from ui import clear_screen, show_header, show_text
+from .input import read_key
+from .words import get_text
+from .ui import clear_screen, show_header, show_text
 
 def calculate_accuracy(text, typed):
     if not typed:
