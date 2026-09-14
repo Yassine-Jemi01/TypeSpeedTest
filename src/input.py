@@ -53,6 +53,5 @@ def _read_unix():
             return "ESC"
 
         return key
-
     finally:
         termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
