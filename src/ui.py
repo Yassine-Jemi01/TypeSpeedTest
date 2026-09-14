@@ -1,8 +1,6 @@
 RESET = "\033[0m"
 BOLD = "\033[1m"
 CYAN = "\033[36m"
-GREEN = "\033[32m"
-RED = "\033[31m"
 DIM = "\033[2m"
 
 
@@ -28,18 +26,3 @@ def show_stats(wpm, accuracy, elapsed):
         f"Accuracy: {accuracy:.1f}%    "
         f"Time: {elapsed:.1f}s"
     )
-
-
-def show_results(test):
-    results = test.results()
-
-    print()
-    print("-" * 45)
-    print("Results")
-    print("-" * 45)
-
-    print(f"Time:     {results['time']:.2f}s")
-    print(f"WPM:      {results['wpm']:.1f}")
-    print(f"Accuracy: {results['accuracy']:.1f}%")
-
-    print("-" * 45)
